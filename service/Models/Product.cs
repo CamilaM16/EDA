@@ -3,6 +3,8 @@ using MongoDB.Bson;
 using MongoDB.Bson.Serialization.Attributes;
 using System.Collections.Generic;
 
+namespace service.Models;
+
 public class Buyer
 {
     [BsonElement("buyer_id")]

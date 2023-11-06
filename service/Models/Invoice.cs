@@ -3,6 +3,8 @@ using MongoDB.Bson.Serialization.Attributes;
 using System;
 using System.Collections.Generic;
 
+namespace service.Models;
+
 public class Invoice
 {
     [BsonId]
