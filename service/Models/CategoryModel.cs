@@ -9,12 +9,12 @@ namespace service.Models
     {
         [BsonId]
         [BsonRepresentation(BsonType.ObjectId)]
-        public string Id { get; set; }
+        public string? Id { get; set; }
 
         [BsonElement("id")]
         public int IdCategory { get; set; }
 
         [BsonElement("name")]
-        public string Name { get; set; }
+        public string? Name { get; set; }
     }
 }

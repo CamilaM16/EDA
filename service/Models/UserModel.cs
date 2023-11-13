@@ -8,15 +8,15 @@ namespace service.Models
     {
         [BsonId]
         [BsonRepresentation(BsonType.ObjectId)]
-        public string Id { get; set; }
+        public string? Id { get; set; }
 
         [BsonElement("name")]
-        public string Name { get; set; }
+        public string? Name { get; set; }
 
         [BsonElement("role")]
-        public string Role { get; set; }
+        public string? Role { get; set; }
 
         [BsonElement("secret")]
-        public string Secret { get; set; }
+        public string? Secret { get; set; }
     }
 }
