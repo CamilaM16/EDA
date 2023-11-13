@@ -1,0 +1,17 @@
+/home/fundacion/Desktop/Universidad/EDA/tutorial/Send/bin/Debug/net7.0/Send
+/home/fundacion/Desktop/Universidad/EDA/tutorial/Send/bin/Debug/net7.0/Send.deps.json
+/home/fundacion/Desktop/Universidad/EDA/tutorial/Send/bin/Debug/net7.0/Send.runtimeconfig.json
+/home/fundacion/Desktop/Universidad/EDA/tutorial/Send/bin/Debug/net7.0/Send.dll
+/home/fundacion/Desktop/Universidad/EDA/tutorial/Send/bin/Debug/net7.0/Send.pdb
+/home/fundacion/Desktop/Universidad/EDA/tutorial/Send/bin/Debug/net7.0/RabbitMQ.Client.dll
+/home/fundacion/Desktop/Universidad/EDA/tutorial/Send/obj/Debug/net7.0/Send.csproj.AssemblyReference.cache
+/home/fundacion/Desktop/Universidad/EDA/tutorial/Send/obj/Debug/net7.0/Send.GeneratedMSBuildEditorConfig.editorconfig
+/home/fundacion/Desktop/Universidad/EDA/tutorial/Send/obj/Debug/net7.0/Send.AssemblyInfoInputs.cache
+/home/fundacion/Desktop/Universidad/EDA/tutorial/Send/obj/Debug/net7.0/Send.AssemblyInfo.cs
+/home/fundacion/Desktop/Universidad/EDA/tutorial/Send/obj/Debug/net7.0/Send.csproj.CoreCompileInputs.cache
+/home/fundacion/Desktop/Universidad/EDA/tutorial/Send/obj/Debug/net7.0/Send.csproj.CopyComplete
+/home/fundacion/Desktop/Universidad/EDA/tutorial/Send/obj/Debug/net7.0/Send.dll
+/home/fundacion/Desktop/Universidad/EDA/tutorial/Send/obj/Debug/net7.0/refint/Send.dll
+/home/fundacion/Desktop/Universidad/EDA/tutorial/Send/obj/Debug/net7.0/Send.pdb
+/home/fundacion/Desktop/Universidad/EDA/tutorial/Send/obj/Debug/net7.0/Send.genruntimeconfig.cache
+/home/fundacion/Desktop/Universidad/EDA/tutorial/Send/obj/Debug/net7.0/ref/Send.dll

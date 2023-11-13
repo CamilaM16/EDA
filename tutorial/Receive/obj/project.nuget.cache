@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "77XOxeX9vfzRhEYl8rTgqJ4Y1t5GFWJ1zheFZDKNFhlT1eRZJL2iMhut81KimpNgSFYqAR2UmWP/6n+RuPMmhg==",
+  "success": true,
+  "projectFilePath": "/home/fundacion/Desktop/Universidad/EDA/tutorial/Receive/Receive.csproj",
+  "expectedPackageFiles": [
+    "/home/fundacion/.nuget/packages/rabbitmq.client/6.6.0/rabbitmq.client.6.6.0.nupkg.sha512",
+    "/home/fundacion/.nuget/packages/system.memory/4.5.5/system.memory.4.5.5.nupkg.sha512",
+    "/home/fundacion/.nuget/packages/system.threading.channels/7.0.0/system.threading.channels.7.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

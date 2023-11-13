@@ -1,0 +1,17 @@
+/home/fundacion/Desktop/Universidad/EDA/tutorial/Receive/bin/Debug/net7.0/Receive
+/home/fundacion/Desktop/Universidad/EDA/tutorial/Receive/bin/Debug/net7.0/Receive.deps.json
+/home/fundacion/Desktop/Universidad/EDA/tutorial/Receive/bin/Debug/net7.0/Receive.runtimeconfig.json
+/home/fundacion/Desktop/Universidad/EDA/tutorial/Receive/bin/Debug/net7.0/Receive.dll
+/home/fundacion/Desktop/Universidad/EDA/tutorial/Receive/bin/Debug/net7.0/Receive.pdb
+/home/fundacion/Desktop/Universidad/EDA/tutorial/Receive/bin/Debug/net7.0/RabbitMQ.Client.dll
+/home/fundacion/Desktop/Universidad/EDA/tutorial/Receive/obj/Debug/net7.0/Receive.csproj.AssemblyReference.cache
+/home/fundacion/Desktop/Universidad/EDA/tutorial/Receive/obj/Debug/net7.0/Receive.GeneratedMSBuildEditorConfig.editorconfig
+/home/fundacion/Desktop/Universidad/EDA/tutorial/Receive/obj/Debug/net7.0/Receive.AssemblyInfoInputs.cache
+/home/fundacion/Desktop/Universidad/EDA/tutorial/Receive/obj/Debug/net7.0/Receive.AssemblyInfo.cs
+/home/fundacion/Desktop/Universidad/EDA/tutorial/Receive/obj/Debug/net7.0/Receive.csproj.CoreCompileInputs.cache
+/home/fundacion/Desktop/Universidad/EDA/tutorial/Receive/obj/Debug/net7.0/Receive.csproj.CopyComplete
+/home/fundacion/Desktop/Universidad/EDA/tutorial/Receive/obj/Debug/net7.0/Receive.dll
+/home/fundacion/Desktop/Universidad/EDA/tutorial/Receive/obj/Debug/net7.0/refint/Receive.dll
+/home/fundacion/Desktop/Universidad/EDA/tutorial/Receive/obj/Debug/net7.0/Receive.pdb
+/home/fundacion/Desktop/Universidad/EDA/tutorial/Receive/obj/Debug/net7.0/Receive.genruntimeconfig.cache
+/home/fundacion/Desktop/Universidad/EDA/tutorial/Receive/obj/Debug/net7.0/ref/Receive.dll
