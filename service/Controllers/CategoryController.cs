@@ -12,18 +12,18 @@ namespace service.Controllers
     [Route("api/[controller]")]
     public class CategoryController : ControllerBase
     {
-        private readonly IService<Category> _service;
+        private readonly IService<CategoryModel> _service;
 
-        public CategoryController(IService<Category> categoryService)
+        public CategoryController(IService<CategoryModel> categoryService)
         {
             _service = categoryService;
         }
 
         [HttpGet]
-        public async Task<List<Category>> Get() => await _service.GetAllAsync();
+        public async Task<List<CategoryModel>> Get() => await _service.GetAllAsync();
 
         [HttpGet("{id:length(24)}")]
-        public async Task<ActionResult<Category>> Get(string id)
+        public async Task<ActionResult<CategoryModel>> Get(string id)
         {
             var book = await _service.GetAsync(id);
 
@@ -36,14 +36,14 @@ namespace service.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> Post(Category newTask)
+        public async Task<IActionResult> Post(CategoryModel newTask)
         {
             await _service.CreateAsync(newTask);
             return CreatedAtAction(nameof(Get), new { id = newTask.Id }, newTask);
         }
 
         [HttpPut("{id:length(24)}")]
-        public async Task<IActionResult> Update(string id, Category updatedTask)
+        public async Task<IActionResult> Update(string id, CategoryModel updatedTask)
         {
             var task = await _service.GetAsync(id);
 

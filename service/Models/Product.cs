@@ -13,9 +13,6 @@ public class Buyer
 
     [BsonElement("quantity")]
     public int Quantity { get; set; }
-
-    [BsonElement("ratings")]
-    public List<Rating>? Ratings { get; set; }
 }
 
 public class Rating
@@ -41,7 +38,7 @@ public class Product
     public string? Details { get; set; }
 
     [BsonElement("categories")]
-    public List<Category>? Categories { get; set; }
+    public List<int>? Categories { get; set; }
 
     [BsonElement("quantity")]
     public int Quantity { get; set; }
@@ -55,6 +52,9 @@ public class Product
 
     [BsonElement("list_buyers")]
     public List<Buyer>? Buyers { get; set; }
+
+    [BsonElement("ratings")]
+    public List<Rating>? Ratings { get; set; }
 
     [BsonElement("date_publics")]
     public DateTime DatePublics { get; set; }

@@ -12,18 +12,18 @@ namespace service.Controllers
     [Route("api/[controller]")]
     public class UserController : ControllerBase
     {
-        private readonly IService<User> _service;
+        private readonly IService<UserModel> _service;
 
-        public UserController(IService<User> userService)
+        public UserController(IService<UserModel> userService)
         {
             _service = userService;
         }
 
         [HttpGet]
-        public async Task<List<User>> Get() => await _service.GetAllAsync();
+        public async Task<List<UserModel>> Get() => await _service.GetAllAsync();
 
         [HttpGet("{id:length(24)}")]
-        public async Task<ActionResult<User>> Get(string id)
+        public async Task<ActionResult<UserModel>> Get(string id)
         {
             var book = await _service.GetAsync(id);
 
@@ -36,14 +36,14 @@ namespace service.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> Post(User newTask)
+        public async Task<IActionResult> Post(UserModel newTask)
         {
             await _service.CreateAsync(newTask);
             return CreatedAtAction(nameof(Get), new { id = newTask.Id }, newTask);
         }
 
         [HttpPut("{id:length(24)}")]
-        public async Task<IActionResult> Update(string id, User updatedTask)
+        public async Task<IActionResult> Update(string id, UserModel updatedTask)
         {
             var task = await _service.GetAsync(id);
 
