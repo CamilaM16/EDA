@@ -8,22 +8,23 @@ using MongoDB.Driver;
 
 namespace service.Services
 {
-    public class ProductService : Service<Product>
+    public class CategoryService : Service<Category>
     {
-        public ProductService(IOptions<EcommersDataBaseSettings> todoSettings)
-            : base(todoSettings, todoSettings.Value.ProductCollectionName)
+        public CategoryService(IOptions<EcommersDataBaseSettings> todoSettings)
+            : base(todoSettings, todoSettings.Value.CategoriesCollectionName)
         {
         }
-        public override async Task<List<Product>> GetAllAsync() =>
-                    await _collection.Find(_ => true).ToListAsync();
 
-        public override async Task<Product> GetAsync(string id) =>
+        public override async Task<List<Category>> GetAllAsync() =>
+            await _collection.Find(_ => true).ToListAsync();
+
+        public override async Task<Category> GetAsync(string id) =>
             await _collection.Find(x => x.Id == id).FirstOrDefaultAsync();
 
-        public override async Task CreateAsync(Product newElement) =>
+        public override async Task CreateAsync(Category newElement) =>
             await _collection.InsertOneAsync(newElement);
 
-        public override async Task UpdateAsync(string id, Product updatedElement) =>
+        public override async Task UpdateAsync(string id, Category updatedElement) =>
             await _collection.ReplaceOneAsync(x => x.Id == id, updatedElement);
 
         public override async Task RemoveAsync(string id) =>

@@ -16,5 +16,7 @@ namespace service.Models
         public string ProductCollectionName { get; set; } = null!;
         
         public string InvoiceCollectionName { get; set; } = null!;
+        
+        public string CategoriesCollectionName { get; set; } = null!;
     }
 }
