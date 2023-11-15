@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "UKnnDg+xkp5XK2/gYn7bZrYsDju+IyOpTGqALlF/aS77Lg53y3LaymV5l0M4b1NW/DeyN5R1wdbYta2gVcrdqQ==",
+  "success": true,
+  "projectFilePath": "/home/fundacion/Desktop/Universidad/EDA/tutorial/Send/Send.csproj",
+  "expectedPackageFiles": [
+    "/home/fundacion/.nuget/packages/rabbitmq.client/6.6.0/rabbitmq.client.6.6.0.nupkg.sha512",
+    "/home/fundacion/.nuget/packages/system.memory/4.5.5/system.memory.4.5.5.nupkg.sha512",
+    "/home/fundacion/.nuget/packages/system.threading.channels/7.0.0/system.threading.channels.7.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
